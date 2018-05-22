@@ -1,4 +1,4 @@
-package com.example.jon_lukewest.myenterpriseapplication;
+
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -14,7 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class Main extends AppCompatActivity {
 
     String welcomeMessage= "Welcome to the cat bonanza!";
     boolean isImageModeEnabled = true;
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        startImageActivityIntent = new Intent(this,ImageActivity.class);
+        startImageActivityIntent = new Intent(this,Image.class);
 
         Button welcomeButton = (Button) findViewById(R.id.welcomeButton);
         welcomeButton.setOnClickListener(new View.OnClickListener() {
