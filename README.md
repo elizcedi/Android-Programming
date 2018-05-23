@@ -8,4 +8,10 @@ Things to know before programming:
 - Install the Android Studio and the Android SDK and configuring the SDK and Android Studio.
 - Coding in event handlers to initialize the buttons in the Java code using the findViewById method.
 
-Throughout the 
+
+
+
+
+
+
+
